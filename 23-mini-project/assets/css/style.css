@@ -9,3 +9,7 @@ body {
     background-color: darkseagreen;
     margin-top: 0px;
 }
+
+#naviationBar{
+    text-align: left;
+}
