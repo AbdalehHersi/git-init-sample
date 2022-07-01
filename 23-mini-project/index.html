@@ -2,33 +2,46 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My First Webpage Test</title>
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
 
     <body>
         <header>
-            <h1>My First mini-project</h1>
+            <h1>My first mini-project</h1>
         </header>
+        
+            <section class="navigationBar">
+                <nav class="text-right">
+                    <ul>
+                        <li class="item-1"><a href="https://github.com/AbdalehHersi">My Github</a></li>
+                        <li class="item-2"><a href="###">Placeholder Email</a></li>
+                        <li class="item-3"><a href="###">Placeholder Number</a></li>
+                    </ul>
+                </nav>
+            </section>
 
-        <section class="firstBox">
-            <h2>Below you can find my contact info</h2>
-            <nav>
-                <ul>
-                    <li><a href="https://github.com/AbdalehHersi">My Github</a></li>
-                    <li><a href="###">Placeholder Email</a></li>
-                    <li><a href="###">Placeholder Number</a></li>
-                 </ul>
-            </nav>
+        <section>
+            <h2 class="text-centre">Placeholder image</h2>
+            <figure>
+                <img src="./assets/images/1732280.jpg" alt="Placeholder image" class="imageCentre">
+            <figcaption class="text-centre">Placeholder caption</figcaption>
+            </figure>
         </section>
 
         <section>
-            <h2>Placeholder image</h2>
-            <img src="./assets/images/1732280.jpg" alt="Coming soon">
+            <h3 class="text-centre">Contact Me</h3>
+            <form class="text-centre">
+                <input name="address" placeholder="address"/>
+                <br/>
+                <input name="email" type="email" placeholder="email"/>
+                <br/>
+                <button type="submit">submit</button>
+            </form>
         </section>
-        <footer>
-
+        
+        <footer class="text-centre">
+            © 2022 My New Website Productions 
         </footer>
     </body>
 

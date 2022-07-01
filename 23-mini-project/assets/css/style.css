@@ -11,6 +11,7 @@ header {
     line-height: 100px;
     border-bottom: 10px solid darkblue;
     background-color: #999900;
+    position: fixed;
 }
 
 footer {
@@ -23,19 +24,17 @@ footer {
 }
 
 body {
-    background-color: #99a2b0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-.title {
+.text-centre {
     text-align: center;
     color: #0d2b5c;
     background-color: darkseagreen;
     margin-top: 0px;
 }
 
-.firstBox {
-
+.text-right {
     text-align: right;
     padding: 10px;
     background-color: darkseagreen;
@@ -53,7 +52,15 @@ section {
 
 img {
     display: block;
-    position: relative;
-    width: 20%;
-    border: black;
+  margin: 20px auto;
+}
+
+#navigationBar {
+    background-color: aqua;
+}
+#imageCentre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
