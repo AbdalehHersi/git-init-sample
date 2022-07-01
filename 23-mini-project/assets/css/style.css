@@ -1,10 +1,11 @@
 * {
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
 }
 
 
 header {
+    top: 0px;
     height: 100px;
     width: 100%;
     text-align: center;
@@ -57,6 +58,7 @@ img {
 
 #navigationBar {
     background-color: aqua;
+    line-height: 250px;
 }
 /*#imageCentre {
     display: block;
@@ -64,3 +66,6 @@ img {
     margin-right: auto;
     width: 50%;
 }*/
+#navigationItems {
+    display: inline;
+}
